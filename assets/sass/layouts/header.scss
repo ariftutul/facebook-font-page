@@ -1,0 +1,30 @@
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    // border-bottom: 1px solid rgb(238, 236, 236);
+    box-shadow: 0px 0px 9px #d3d0d0;
+    .header_search{
+        display: flex;
+        justify-content: space-between;
+        .icon{
+            padding-top: 5px;
+            img{
+               
+
+            }
+        }
+        .links{
+         padding-top: 5px;
+            img{
+                padding: 0px 30px;
+
+            }
+        }
+        .notify{
+            img{
+
+            }
+        }
+    }
+  
+}

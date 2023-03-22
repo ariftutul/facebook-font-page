@@ -1,0 +1,132 @@
+@media (max-width: 575.98px) {
+    header {
+        padding: 35px;
+    }
+    header h3 {
+        font-size: 15px;
+    }
+    header h3 i {
+        font-size: 15px;
+    }
+    section {
+        top: 67px;
+        border-radius: 27px 27px 0px 0px;
+    }
+    section .form_part p {
+        padding-top: 29px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+    section .form_part h6 {
+        padding: 8px 0px;
+    }
+    section .form_part ul li .logo {
+        width: 29px;
+        background-color: rgb(175, 138, 209);
+        border-radius: 50px;
+    }
+    section .form_part ul li .logo img {
+        width: 25px;
+    }
+    section .form_part ul li i {
+        padding: 8px;
+    }
+    section .form_part ul li a {
+        font-size: 10px;
+    }
+    section .form_part .time h3 {
+        font-size: 13px;
+    }
+    section .form_part .time_part {
+        flex-direction: column;
+    }
+    section .form_part .time_part .start_part .all_partion {
+        width: 280px;
+    }
+    section .form_part .time_part .start_part .all_partion h4 {
+        font-size: 15px;
+    }
+    section .form_part .board_from {
+        padding: 18px 0px;
+    }
+    section .form_part .board_from h3 a {
+        font-size: 11px;
+    }
+    section .form_part .done_part a {
+        font-size: 13px;
+    }
+    header h3 i {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header {
+        padding: 40px;
+    }
+    header h3 {
+        font-size: 20px;
+    }
+    header h3 i {
+        font-size: 20px;
+    }
+    section {
+        top: 80px;
+        border-radius: 27px 27px 0px 0px;
+    }
+    section .form_part p {
+        padding-top: 29px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+    section .form_part h6 {
+        padding: 8px 0px;
+    }
+    section .form_part ul li .logo {
+        width: 35px;
+        background-color: rgb(175, 138, 209);
+        border-radius: 50px;
+    }
+    section .form_part ul li .logo img {
+        width: 30px;
+    }
+    section .form_part ul li i {
+        padding: 12px;
+    }
+    section .form_part ul li a {
+        font-size: 10px;
+    }
+    section .form_part .time h3 {
+        font-size: 13px;
+    }
+    section .form_part .time_part {
+        flex-direction: column;
+    }
+    section .form_part .time_part .start_part .all_partion h4 {
+        font-size: 15px;
+    }
+    section .form_part .board_from {
+        padding: 18px 0px;
+    }
+    section .form_part .board_from h3 a {
+        font-size: 11px;
+    }
+    section .form_part .done_part a {
+        font-size: 13px;
+    }
+    header h3 i {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    section .form_part .time_part {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,35 @@
+@mixin flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin flex_wrap {
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@mixin flex_justify($value) {
+    -webkit-justify-content: $value;
+    justify-content: $value;
+}
+
+@mixin link_tag {
+    font-weight: normal;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+@mixin icon_tag {
+    color: $orange_icon;
+    font-size: 30px;
+}
+
+@mixin ptag {
+    font-size: 11px;
+    color: rgba(255, 255, 255, .5);
+}

@@ -1,0 +1,219 @@
+section {
+    background-color: #f0f2f5;
+    padding-top: 20px;
+
+    .section_all {
+       
+        display: flex;
+        justify-content: space-between;
+        ul {
+            li {
+
+                display: flex;
+
+                img {
+                    width: 50px;
+
+
+                }
+
+                a {
+
+                    padding-top: 14px;
+                    padding-left: 3px;
+                    font-family: 'Open Sans', sans-serif;
+                    text-transform: capitalize;
+                    font-size: .9375rem;
+                    color: var(--primary-text);
+                }
+            }
+        }
+        .section_middel{
+           
+            width: 550px;
+            border-radius: 10px;
+            height: 300px;
+            background-color: white;
+            box-shadow:  0.4px  0.4px 1px 1px   rgb(204, 201, 201);
+           .middel1{
+
+  
+            .story_reel{
+                display: flex;
+                justify-content: space-around;
+                border-bottom:  1px solid rgb(218, 210, 210);
+
+                .stories{
+                    display: flex;
+                    
+                    img{
+
+                    }
+                    a{
+                       color: cornflowerblue;
+                        padding-top: 11px;
+                        font-weight: 600;
+                        padding-left: 3px;
+                        font-family: 'Open Sans', sans-serif;
+                        text-transform: capitalize;
+                        font-size: .9375rem;
+                       
+                        
+                    }
+                }
+                .reel{
+                    display: flex;
+                    img{
+
+                    }
+                    a{
+                        color: var(--secondary-text);
+                        padding-top: 11px;
+                        font-weight: 600;
+                        padding-left: 3px;
+                        font-family: 'Open Sans', sans-serif;
+                        text-transform: capitalize;
+                        font-size: .9375rem;
+                    }
+                }
+            
+            }
+            .story_today{
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    li{
+                        padding: 15px 0px;
+                        img{
+                            width: 130px;
+
+                        }
+                    }
+                }
+            }
+           }
+           .middel2{
+            width: 550px;
+            border-radius: 10px;
+            height: 140px;
+            background-color: white;
+            box-shadow:  1px  1px 1px 1px   rgb(204, 201, 201);
+          img{
+            width: 530px;
+          }
+          ul{
+            padding: 10px;
+          border-top: 2px solid rgb(226, 216, 216);
+            display: flex;
+            justify-content: space-around;
+            li{
+                img{
+                    width: 40px;
+
+                }
+                a{
+                    font-family: 'Open Sans', sans-serif;
+                    color: var(--secondary-text);
+                    font-size: .9375rem;
+                }
+            }
+          }
+
+           }
+       
+        }
+        .section_end{
+            h5{
+                font-family: 'Open Sans', sans-serif;
+                    color: var(--secondary-text);
+                    font-size: .9375rem;
+                
+            }
+            .add{
+                padding: 10px 0px;
+                display: flex;
+                img{
+
+                }
+                a{
+                    padding-left: 10px;
+                    padding-top: 40px;
+                    font-family: 'Open Sans', sans-serif;
+                color: var(--secondary-text);
+                font-size: .9375rem;
+                }
+            }
+            .birthday{
+              border-top: 1px solid rgb(214, 202, 202);
+              border-bottom: 1px solid rgb(214, 202, 202);
+                h6{
+                    font-family: 'Open Sans', sans-serif;
+                    color: rgb(105, 102, 102);
+                    font-size: 13px;
+                    font-weight: 600px;
+   
+                    text-transform: capitalize;
+                }
+                .birthday_name{
+                    padding: 10px 0px;
+                    display: flex;
+                    img{
+
+                    }
+                    a{
+                        padding-top: 10px;
+                        padding-left:5px;
+                
+                        font-family: 'Open Sans', sans-serif;
+                    color: var(--secondary-text);
+                    font-size: .9375rem;
+                    
+                        span{
+                            padding-right: 5px;
+                            padding-left: 10px;
+                            color: black;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            .contacts{
+                display: flex;
+                justify-content: space-between;
+                a{
+                    padding-top: 10px;
+                    font-weight: bold;
+            
+                    font-family: 'Open Sans', sans-serif;
+                color: var(--secondary-text);
+              font-size: 14PX;
+                }
+                ul{
+                    display: flex;
+                  
+                    li{
+                        padding: 10PX 7PX;
+                        i{
+                      color: rgb(107, 102, 102);
+                            font-size: 14PX;
+
+                        }
+                    }
+                }
+           
+            }
+            .contacts_name{
+                ul{
+                    li{
+                        a{
+                            padding-left: 6px;
+                            color: var(--primary-text);
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+       }
+
+    }
+}
